@@ -1509,5 +1509,21 @@
  *                    "RGB565 bitmap" and "Classic" are used as fallback.
  */
 #define THUMBNAIL_PARSER 0  // Default: 0
+define CUSTOM_12_GCODE "M105\n"
+//#define CUSTOM_13_LABEL "Custom13"
+//#define CUSTOM_13_GCODE "M105\n"
+//#define CUSTOM_14_LABEL "Custom14"
+//#define CUSTOM_14_GCODE "M105\n"
+#endif
+
+#define CANCEL_PRINT_GCODE "G28 X0 Y0\n"
+define CUSTOM_12_GCODE "M105\n"
+//#define CUSTOM_13_LABEL "Custom13"
+//#define CUSTOM_13_GCODE "M105\n"
+//#define CUSTOM_14_LABEL "Custom14"
+//#define CUSTOM_14_GCODE "M105\n"
+#endif
+
+#define CANCEL_PRINT_GCODE "G28 X0 Y0\n"
 
 #endif
